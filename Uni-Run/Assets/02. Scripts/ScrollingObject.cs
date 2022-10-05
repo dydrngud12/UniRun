@@ -14,9 +14,9 @@ public class ScrollingObject : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        // 초당 speed의 속도로 왼족으로 평행이동
+        // 초당 speed의 속도로 왼쪽으로 평행이동
         transform.Translate(Vector3.left * speed * Time.deltaTime);
     }
 }

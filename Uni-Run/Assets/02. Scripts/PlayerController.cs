@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D playerRigidbody; // 사용할 리지드바디 컴포넌트
     private Animator animator; // 사용할 애니메이터 컴포넌트
-    private AudioSource PlayerAundio; // 사용할 오디오 소스 컴포넌트
+    private AudioSource PlayerAudio; // 사용할 오디오 소스 컴포넌트
 
 
     // Start is called before the first frame update
@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
         // 게임 오브젝트로부터 사용할 컴포넌트들을 가져와 변수에 할당
         playerRigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        PlayerAundio = GetComponent<AudioSource>();
+        PlayerAudio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour
             // 리지드바디에 위쪽으로 힘 주기
             playerRigidbody.AddForce(new Vector2(0, jumpForce));
             // 오디오 소스 재생
-            PlayerAundio.Play();
+            PlayerAudio.Play();
         }
         else if (Input.GetMouseButtonUp(0) && playerRigidbody.velocity.y > 0)
         {
@@ -62,9 +62,9 @@ public class PlayerController : MonoBehaviour
         animator.SetTrigger("Die");
 
         // 오디오 소스에 할당된 오디오 클립을 deathClip으로 변경
-        PlayerAundio.clip = deathClip;
+        PlayerAudio.clip = deathClip;
         // 사망 효과음 재생
-        PlayerAundio.Play();
+        PlayerAudio.Play();
 
         // 속도를 제로(0, 0)로 변경
         playerRigidbody.velocity = Vector2.zero;
