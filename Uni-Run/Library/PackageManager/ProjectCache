@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638000360121684804
+      ticks: 638007245170000000
     m_Hash: 2488401325
   m_LockFileStatus:
     m_FilePath: D:/Unity/GitHub/UniRun/Uni-Run/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638000360515371489
+      ticks: 638007245170000000
     m_Hash: 301391453
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -95,6 +95,7 @@ m_ResolvedPackages:
     - 1.17.0
     - 1.17.1
     - 1.17.2
+    - 1.17.6
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -110,6 +111,7 @@ m_ResolvedPackages:
     - 1.17.0
     - 1.17.1
     - 1.17.2
+    - 1.17.6
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -2967,6 +2969,7 @@ m_ResolvedPackages:
     - 8.0.1
     - 8.0.2
     - 8.0.3
+    - 8.0.4
     - 9.0.0-pre.1
     - 9.0.0-pre.3
     - 9.0.0
@@ -3187,6 +3190,7 @@ m_ResolvedPackages:
     - 7.0.0
     - 7.0.1
     - 7.0.2
+    - 7.0.3
     - 8.0.0-pre.1
     - 8.0.0-pre.3
     - 8.0.0
@@ -3818,6 +3822,7 @@ m_ResolvedPackages:
     - 7.0.0-pre.4
     - 7.0.0
     - 7.0.1
+    - 7.0.2
     - 8.0.0-pre.1
     - 8.0.0-pre.2
     - 8.0.0
