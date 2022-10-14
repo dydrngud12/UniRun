@@ -71,3 +71,5 @@ public class GameManager : MonoBehaviour
         gameoverUI.SetActive(true);
     }
 }
+
+
